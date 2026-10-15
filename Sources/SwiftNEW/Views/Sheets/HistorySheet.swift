@@ -55,7 +55,7 @@ extension SwiftNEW {
               VStack(alignment: align == .trailing ? .trailing : .leading) {
                 Text(new.title).font(.headline).lineLimit(1)
                 Text(new.subtitle).font(.subheadline).foregroundColor(.secondary).lineLimit(1)
-                Text(new.body).font(.caption).foregroundColor(.secondary)
+                Text(new.body).font(.subheadline).foregroundColor(.secondary)
               }
 
               if align == .trailing {
@@ -79,7 +79,8 @@ extension SwiftNEW {
         }
       }
       #if !os(tvOS)
-        .frame(width: 300)
+        .padding(.horizontal)
+        .frame(maxWidth: 360)
       #elseif !os(macOS)
         .frame(maxHeight: UIScreen.main.bounds.height * 0.5)
       #endif

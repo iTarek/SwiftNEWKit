@@ -17,7 +17,7 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "إستمر"
+            "value" : "استمر"
           }
         },
         "de" : {
@@ -229,7 +229,7 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "إعرض التحديثات السابقة"
+            "value" : "اعرض التحديثات السابقة"
           }
         },
         "de" : {
@@ -388,7 +388,7 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ماهو الجديد"
+            "value" : "ما هو الجديد"
           }
         },
         "de" : {
